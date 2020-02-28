@@ -24,7 +24,7 @@ export class CarnetComponent implements OnInit {
   public search = '';
 
   constructor() { }
-
+  
   ngOnInit() {
   }
 
