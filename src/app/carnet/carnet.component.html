@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <div class="title">
+        <h3>My Address Book</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col align-self-center box">
+      <div class="firstbox">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col align-self-center alph">
+            <div class="input-group search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <mat-icon>search</mat-icon>
+                </button>
+              </div>
+              <input type="text" class="form-control" placeholder="Search" [(ngModel)]="search">
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col align-self-center ">
+            <a class="alph" *ngFor="let lettre of alpha; let j = index">{{alpha[j]}}</a>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 " *ngFor="let contact of contacts | contact:search; let i = index">
+            <div class="profile" [routerLink]="['/contact',i]">
+              <div class="boxAvatar">
+                <img class="avatar" src="../../assets/profile.png">
+              </div>
+              <div>
+                <p>{{contact.name}} <br><span>{{contact.num}}</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

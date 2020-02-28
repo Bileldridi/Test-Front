@@ -1,0 +1,94 @@
+.intro {
+    
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+  }
+  input.form-control {
+    border: none;
+}
+.box{
+  padding-left: 10%;
+    padding-right: 10%;
+}
+  .title{
+        color: #b4bbc2;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        padding-top: 6%;
+  }
+  .seachbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .search{
+      background-color: white;
+      width: 70%;
+      margin-left: 83px;
+      margin-top: 15px;
+  }
+  .firstbox{
+      margin-top: 40px;
+      background-color: #f8f8f8;
+      height: 200px;
+      border-radius: 10px;
+      border-top: 20px solid #ef4847;
+      padding-left: 3%;
+  }
+  .alph{
+    color: #ef4847;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+  .profile{
+    background-color: white;
+    box-shadow: 0px 1px 9.9px 0.1px rgba(187, 185, 185, 0.27);
+    height: 80px;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 8%;
+  }
+
+  .avatar{
+    height: 25px;
+    width: 25px;
+  
+  }
+  .boxAvatar{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    border: #ef4847 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 8%;
+
+  }
+  .contact{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .name {
+    margin-left: 52%;
+    margin-top: -24%;
+    margin-bottom: 22%;
+  }
+  .icon {
+    margin-left: 33%;
+  }
+ 
